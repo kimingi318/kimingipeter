@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/5a9b01c09b.js" crossorigin="anonymous"></script>
+    <title>Kimingi-portifolio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <nav>
+                <img src="pp.images/logo2.jpg" class="logo" title="Peter Kimingi">
+                <ul id="menu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portifolio">Portifolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()" title="Menu"></i>
+            </nav>
+            <div class="header-text">
+                <p>UI/UX Designer</p>
+                <p>Graphical Designer</p>
+                <p>Back-End Developer</p>
+                <h1>Hi I'm <span>Kimingi</span><br> from Kenya</h1>
+            </div>
+        </div>
+    </div>
+    <!-----------------------------about------------------------------>
+    <div class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="pp.images/profile.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Full Name:Peter Kimingi. <br>location:Kenya. <br>Occupation:Computer scientist. <br>My services are included at the skills tab below.</p>
+
+                         <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('Experience')">Experience </p>
+                            <p class="tab-links" onclick="opentab('Education')">Education</p>
+                         </div>
+                        
+                         <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li><span>UI/UX</span><br>Designing web/App interfaces</li>
+                                <li><span>Graphical-design</span><br>Designing logos,posters etc</li>
+                                <li><span>Back-End development</span><br>building Apps from scratch</li>
+                            </ul>
+                         </div>
+
+                         <div class="tab-contents " id="Experience">
+                            <ul>
+                                <li><span>Current</span><br>No Experience at the moment</li>
+                                
+                            </ul>
+                         </div>
+
+                         <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>2024 - current</span><br>Degree in computer science at Chuka University</li>
+                                <li><span>2023 - 2024</span><br>Graphical design training online</li>
+                                <li><span>2021 - current</span><br>Back-End development training and internships</li>
+                            </ul>
+                         </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!------------------------------services------------------------------>
+    <div class="services" id="services">
+        <div class="container">
+            <h1 class="sub-titles">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Graphical-design</h2>
+                    <p>Logos ,Postas,cards for different sizes,designs,color blends ,of your choice.Call below and get yours done.</p>
+                        <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <h2>App design</h2>
+                    <p>Get an app today .You want to make your works digital holla at me</p>
+                        <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <h2>web-design</h2>
+                    <p>i develop web browser with latest designs ,colors of your choice 
+                        ,a platform to advertise your business,connect with family and friends.
+                        If interested contact me for more information</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+<!----------portifolio------------------->
+    <div class="portifolio" id="portifolio">
+        <div class="container">
+            <div class="sub-title">My Work</div>
+            <div class="work-list">
+                <div class="work">
+                    <img src="pp.images/portifolio-2.png">
+                    <div class="layer">
+                        <h3>Website</h3>
+                        <p>web browser smart,reliable and modern get one?</p>
+                        <a href="#">View</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="pp.images/portifolio-1.jpg">
+                    <div class="layer">
+                        <h3>Groups Logos</h3>
+                        <p>Beautifull arts and logos of different groups and company</p>
+                        <a href="#">View</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="pp.images/portifolio-1.jpg">
+                    <div class="layer">
+                        <h3>Apps</h3>
+                        <p>The App connects you to the talented people around the world.Download it from play store</p>
+                        <a href="#">View</a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+<!------------------Contact------------------->
+<div class="contact" id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="content-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <a href="mailto:kimingipeter318@gmail.com"><p> <i class="fa-solid fa-paper-plane"></i>Email @kimingipeter318@gmail.com</p></a>
+                <a href="tel:+254705168033"><p> <i class="fa-solid fa-phone"></i>Call Me ;0705168033</p></a>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/kimingi318?ighs=aTRsMTAwNGhobDhu" title="Instagram" ><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/peter-kimingi-348608305?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" title="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://x.com/mingiz318peter?t=erW-WrnVjNT jHse-8WPgzg&s=09" title="x-twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+                <a href="pp.images/Peter-Kimingi Resume.docx"  download class="btn btn2">Download CV</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="copyright">
+    <p>All rights reserved <span><i class="fa-regular fa-copyright"></i>.Made by <b>Kimingi</b><span><i class="fa-solid fa-heart"></i></span></span></p>
+</div>
+
+    <script>
+
+        var tablinks =  document.getElementsByClassName("tab-links");
+        var tabcontents =  document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+    </script>
+    <script>
+
+
+        var sidemenu = document.getElementById("menu");
+
+         function openmenu(){
+            sidemenu.style.right = '0';
+         }
+         function closemenu(){
+            sidemenu.style.right = '-200px' ;
+         }
+
+    </script>
+</body>
+</html>
